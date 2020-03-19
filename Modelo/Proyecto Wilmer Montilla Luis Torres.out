@@ -1,0 +1,125 @@
+
+                                      ARENA Simulation Results
+                                       luis - License: STUDENT
+
+                                  Summary for Replication 1 of 3
+
+Project: Unnamed Project                                             Run execution date : 3/19/2020
+Analyst: luis                                                        Model revision date: 3/19/2020
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cliente.VATime                              .01062     (Corr)     .00000     .03328        333    
+Cliente.NVATime                             .00000     .00000     .00000     .00000        333    
+Cliente.WaitTime                            .00119     (Corr)     .00000     .03329        333    
+Cliente.TranTime                            .00000     .00000     .00000     .00000        333    
+Cliente.OtherTime                           .00000     .00000     .00000     .00000        333    
+Cliente.TotalTime                           .01181     (Corr)     .00000     .05636        333    
+Bomba super.Queue.WaitingTime               .00347     (Insuf)    .00000     .03329         99    
+Bomba Ultra.Queue.WaitingTime               .00129     (Insuf)    .00000     .01656         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 .16388     (Insuf)    .00000     3.0000     .00000    
+bomba2.NumberBusy                           .04265     (Insuf)    .00000     1.0000     .00000    
+bomba2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+bomba2.Utilization                          .04265     (Insuf)    .00000     1.0000     .00000    
+Bomba1.NumberBusy                           .10472     (Insuf)    .00000     1.0000     .00000    
+Bomba1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bomba1.Utilization                          .10472     (Insuf)    .00000     1.0000     .00000    
+Bomba super.Queue.NumberInQueue             .01431     (Insuf)    .00000     2.0000     .00000    
+Bomba Ultra.Queue.NumberInQueue             .00220     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+No atendidos Bomba                              193  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            333.00    
+Cliente.NumberOut                           333.00    
+bomba2.NumberSeized                         41.000    
+bomba2.ScheduledUtilization                 .04265    
+Bomba1.NumberSeized                         99.000    
+Bomba1.ScheduledUtilization                 .10472    
+System.NumberOut                            333.00    
+
+Beginning replication 2 of 3
+SIMAN Run Controller.
+
+0.061889749 Hours>
+                                      ARENA Simulation Results
+                                       luis - License: STUDENT
+
+                                  Summary for Replication 2 of 3
+
+Project: Unnamed Project                                             Run execution date : 3/19/2020
+Analyst: luis                                                        Model revision date: 3/19/2020
+
+Replication ended at time      : 0.061889749 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cliente.VATime                              .02932     (Insuf)    .02932     .02932          1    
+Cliente.NVATime                             .00000     (Insuf)    .00000     .00000          1    
+Cliente.WaitTime                            .00000     (Insuf)    .00000     .00000          1    
+Cliente.TranTime                            .00000     (Insuf)    .00000     .00000          1    
+Cliente.OtherTime                           .00000     (Insuf)    .00000     .00000          1    
+Cliente.TotalTime                           .02932     (Insuf)    .02932     .02932          1    
+Bomba super.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000          1    
+Bomba Ultra.Queue.WaitingTime               .01071     (Insuf)    .00000     .02142          2    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 1.5562     (Insuf)    .00000     2.0000     2.0000    
+bomba2.NumberBusy                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+bomba2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+bomba2.Utilization                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+Bomba1.NumberBusy                           .21016     (Insuf)    .00000     1.0000     1.0000    
+Bomba1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bomba1.Utilization                          .21016     (Insuf)    .00000     1.0000     1.0000    
+Bomba super.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Bomba Ultra.Queue.NumberInQueue             .34610     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+No atendidos Bomba                                0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            3.0000    
+Cliente.NumberOut                           1.0000    
+bomba2.NumberSeized                         2.0000    
+bomba2.ScheduledUtilization                 1.0000    
+Bomba1.NumberSeized                         1.0000    
+Bomba1.ScheduledUtilization                 .21016    
+System.NumberOut                            1.0000    
+

@@ -1,0 +1,20 @@
+[RESOURCES]
+bomba2
+Bomba1
+[VARIABLES]
+Clientes autolavado
+Tipo de gasolina.NumberOut False
+Lavar?.NumberOut True
+Bomba Ultra.NumberOut
+Bomba Ultra.NumberIn
+Bomba super.NumberOut
+Bomba super.NumberIn
+Lavar?.NumberOut False
+Bomba Abierta.NumberOut True
+Llegada clientes.NumberOut
+Clientes maximos
+Autolavado Abierto.NumberOut False
+Autolavado Abierto.NumberOut True
+SALIDA.NumberOut
+Bomba Abierta.NumberOut False
+Tipo de gasolina.NumberOut True
