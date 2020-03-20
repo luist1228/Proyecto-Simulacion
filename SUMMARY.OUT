@@ -1,0 +1,17 @@
+Fit All
+
+Document:  C:\Users\georg\Downloads\Proyecto-Simulacion-master\Columna B.txt
+Data File: C:\Users\georg\Downloads\Proyecto-Simulacion-master\Columna B.txt
+
+
+Function       Sq Error
+-----------------------
+Lognormal      0.0895
+Gamma          0.12
+Weibull        0.124
+Exponential    0.126
+Erlang         0.126
+Beta           0.143
+Triangular     0.167
+Uniform        0.183
+Normal         0.189
