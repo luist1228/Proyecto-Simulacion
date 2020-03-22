@@ -1,0 +1,64 @@
+[RESOURCES]
+Cajero autoservicio
+bomba2
+Bomba1
+lavadora
+cajero efectivo
+secadora
+aspiradora
+cajero punto
+[VARIABLES]
+Clientes autolavado
+Tipo de gasolina.NumberOut False
+Auto Servicio.NumberIn
+Parejas.NumberOut
+Lavado.NumberOut
+Preferencia.NumberOut True
+Preferencia.NumberOut False
+Auto Servicio.NumberOut
+Lavado.NumberIn
+Lavar?.NumberOut True
+Cuatro personas.NumberOut
+Bomba Ultra.NumberOut
+Separate 5.NumberOut Orig
+Bomba Ultra.NumberIn
+Bomba super.NumberOut
+Bomba super.NumberIn
+Llegada Parejas.NumberOut Dup
+Lavar?.NumberOut False
+Separate 4.NumberOut Orig
+Llegada Cuarteto.NumberOut Orig
+Llegada Cuarteto.NumberOut Dup
+Trios.NumberOut
+Llegada en carro restaurant.NumberOut
+Sucio o Muy Sucio.NumberOut False
+Preferencia de pago.NumberOut False
+Preferencia de pago.NumberOut True
+Bomba Abierta.NumberOut True
+Pago efectivo.NumberOut
+Efectivo o punto.NumberOut True
+Efectivo o punto.NumberOut False
+Pago efectivo.NumberIn
+Llegada clientes Surtidor.NumberOut
+Llegada Trios.NumberOut Dup
+Aspirado.NumberOut
+Clientes maximos
+Aspirado.NumberIn
+secado.NumberIn
+Autolavado Abierto.NumberOut False
+Pago con punto.NumberIn
+Pago con punto.NumberOut
+Autolavado Abierto.NumberOut True
+secado.NumberOut
+Llegada Clientes a pie.NumberOut
+Dispose 3.NumberOut
+Decide 12.NumberOut False
+Llegada Parejas.NumberOut Orig
+Llegada Trios.NumberOut Orig
+Decide 12.NumberOut True
+Sucio o Muy Sucio.NumberOut True
+SALIDA.NumberOut
+Bomba Abierta.NumberOut False
+Ir al restaurant.NumberOut True
+Tipo de gasolina.NumberOut True
+Ir al restaurant.NumberOut False

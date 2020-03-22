@@ -1,0 +1,69 @@
+[RESOURCES]
+cajero Autolavado
+bomba2
+Bomba1
+lavadora
+Cajero
+secadora
+aspiradora
+[VARIABLES]
+Clientes autolavado
+Tipo de gasolina.NumberOut False
+Auto Servicio.NumberIn
+Parejas.NumberOut
+Lavado.NumberOut
+Auto Servicio.NumberOut
+Lavado.NumberIn
+Lavar?.NumberOut True
+Cuatro personas.NumberOut
+Bomba Ultra.NumberOut
+Bomba Ultra.NumberIn
+Bomba super.NumberOut
+Bomba super.NumberIn
+Comprar Postre.NumberIn
+Comprar Postre.NumberOut
+Llegada Parejas.NumberOut Dup
+Pagar y Despachar.NumberOut
+Pagar y Despachar.NumberIn
+Lavar?.NumberOut False
+Llegada Cuarteto.NumberOut Orig
+Llegada Cuarteto.NumberOut Dup
+Trios.NumberOut
+Comer.NumberOut
+Preferencia Servicio.NumberOut False
+Llegada en carro restaurant.NumberOut
+Preferencia Servicio.NumberOut True
+Sucio o Muy Sucio.NumberOut False
+Preferencia de pago.NumberOut False
+Preferencia de pago.NumberOut True
+Bomba Abierta.NumberOut True
+Irse sin postre.NumberOut True
+Efectivo o punto.NumberOut True
+Efectivo o punto.NumberOut False
+Tiene Carro?.NumberOut False
+Irse sin postre.NumberOut False
+Llegada clientes Surtidor.NumberOut
+Lleno tanque?.NumberOut True
+salida de todos.NumberOut Orig
+Llegada Trios.NumberOut Dup
+Aspirado.NumberOut
+Pago Autolavado.NumberOut
+Clientes maximos
+Aspirado.NumberIn
+secado.NumberIn
+Autolavado Abierto.NumberOut False
+Pago Autolavado.NumberIn
+Autolavado Abierto.NumberOut True
+secado.NumberOut
+Llegada Clientes a pie.NumberOut
+Llegada Parejas.NumberOut Orig
+Llegada Trios.NumberOut Orig
+Lleno tanque?.NumberOut False
+Sucio o Muy Sucio.NumberOut True
+Salida Restaurant.NumberOut
+Bomba Abierta.NumberOut False
+Ir al restaurant.NumberOut True
+Tipo de gasolina.NumberOut True
+Tiene Carro?.NumberOut True
+Comer.NumberIn
+Ir al restaurant.NumberOut False

@@ -1,0 +1,167 @@
+
+                                      ARENA Simulation Results
+                                       luis - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/21/2020
+Analyst: luis                                                        Model revision date: 3/21/2020
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cliente.VATime                              .03608     (Insuf)    .00000     1.5825        231    
+Cliente.NVATime                             .00000     (Insuf)    .00000     .00000        231    
+Cliente.WaitTime                            .00438     (Insuf)    .00000     .26374        231    
+Cliente.TranTime                            .00000     (Insuf)    .00000     .00000        231    
+Cliente.OtherTime                           .00000     (Insuf)    .00000     .00000        231    
+Cliente.TotalTime                           .04046     (Insuf)    .00000     1.6054        231    
+Pareja.VATime                                   --         --         --         --          0
+Pareja.NVATime                                  --         --         --         --          0
+Pareja.WaitTime                                 --         --         --         --          0
+Pareja.TranTime                                 --         --         --         --          0
+Pareja.OtherTime                                --         --         --         --          0
+Pareja.TotalTime                                --         --         --         --          0
+Trio.VATime                                     --         --         --         --          0
+Trio.NVATime                                    --         --         --         --          0
+Trio.WaitTime                                   --         --         --         --          0
+Trio.TranTime                                   --         --         --         --          0
+Trio.OtherTime                                  --         --         --         --          0
+Trio.TotalTime                                  --         --         --         --          0
+Solo.VATime                                 .37361     (Insuf)    .10110     1.0598         89    
+Solo.NVATime                                .00000     (Insuf)    .00000     .00000         89    
+Solo.WaitTime                               .22941     (Insuf)    .00000     2.1913         89    
+Solo.TranTime                               .00000     (Insuf)    .00000     .00000         89    
+Solo.OtherTime                              .00000     (Insuf)    .00000     .00000         89    
+Solo.TotalTime                              .60302     (Insuf)    .10448     2.9485         89    
+Carro.VATime                                    --         --         --         --          0
+Carro.NVATime                                   --         --         --         --          0
+Carro.WaitTime                                  --         --         --         --          0
+Carro.TranTime                                  --         --         --         --          0
+Carro.OtherTime                                 --         --         --         --          0
+Carro.TotalTime                                 --         --         --         --          0
+Tanque lleno.VATime                         .22249     (Insuf)    .03633     1.3289        143    
+Tanque lleno.NVATime                        .00000     (Insuf)    .00000     .00000        143    
+Tanque lleno.WaitTime                       .39140     (Insuf)    .00000     2.0331        143    
+Tanque lleno.TranTime                       .00000     (Insuf)    .00000     .00000        143    
+Tanque lleno.OtherTime                      .00000     (Insuf)    .00000     .00000        143    
+Tanque lleno.TotalTime                      .61389     (Insuf)    .03955     2.5013        143    
+Cuarteto.VATime                                 --         --         --         --          0
+Cuarteto.NVATime                                --         --         --         --          0
+Cuarteto.WaitTime                               --         --         --         --          0
+Cuarteto.TranTime                               --         --         --         --          0
+Cuarteto.OtherTime                              --         --         --         --          0
+Cuarteto.TotalTime                              --         --         --         --          0
+Aspirado.Queue.WaitingTime                  .91855     (Insuf)    .00000     2.0430         70    
+secado.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000         70    
+Lavado.Queue.WaitingTime                    .00185     (Insuf)    .00000     .04280         70    
+Bomba super.Queue.WaitingTime               .02718     (Insuf)    .00000     .13375        100    
+Cuatro personas.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          8    
+Pago Autolavado.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         70    
+Bomba Ultra.Queue.WaitingTime               .01235     (Insuf)    .00000     .08749         40    
+Comprar Postre.Queue.WaitingTime            .08885     (Insuf)    .00000     .22710          4    
+Auto Servicio.Queue.WaitingTime             .05885     (Insuf)    .00000     .26374         10    
+Parejas.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         22    
+Pagar y Despachar.Queue.WaitingTime         .06532     (Insuf)    .00000     .36926        107    
+Trios.Queue.WaitingTime                     .00000     (Insuf)    .00000     .00000          9    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 .85967     (Insuf)    .00000     8.0000     .00000    
+Pareja.WIP                                  .20373     (Insuf)    .00000     3.0000     .00000    
+Trio.WIP                                    .11828     (Insuf)    .00000     2.0000     .00000    
+Solo.WIP                                    1.4528     (Insuf)    .00000     7.0000     2.0000    
+Carro.WIP                                   .00000     (Insuf)    .00000     1.0000     .00000    
+Tanque lleno.WIP                            3.9847     (Insuf)    .00000     23.000     .00000    
+Cuarteto.WIP                                .02319     (Insuf)    .00000     1.0000     .00000    
+cajero Autolavado.NumberBusy                .06459     (Insuf)    .00000     1.0000     .00000    
+cajero Autolavado.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+cajero Autolavado.Utilization               .06459     (Insuf)    .00000     1.0000     .00000    
+bomba2.NumberBusy                           .09415     (Insuf)    .00000     1.0000     .00000    
+bomba2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+bomba2.Utilization                          .09415     (Insuf)    .00000     1.0000     .00000    
+Bomba1.NumberBusy                           .24225     (Insuf)    .00000     1.0000     .00000    
+Bomba1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Bomba1.Utilization                          .24225     (Insuf)    .00000     1.0000     .00000    
+lavadora.NumberBusy                         .21113     (Insuf)    .00000     1.0000     .00000    
+lavadora.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+lavadora.Utilization                        .21113     (Insuf)    .00000     1.0000     .00000    
+Cajero.NumberBusy                           .61576     (Insuf)    .00000     1.0000     1.0000    
+Cajero.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cajero.Utilization                          .61576     (Insuf)    .00000     1.0000     1.0000    
+secadora.NumberBusy                         .07070     (Insuf)    .00000     1.0000     .00000    
+secadora.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+secadora.Utilization                        .07070     (Insuf)    .00000     1.0000     .00000    
+aspiradora.NumberBusy                       .40806     (Insuf)    .00000     1.0000     .00000    
+aspiradora.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+aspiradora.Utilization                      .40806     (Insuf)    .00000     1.0000     .00000    
+Aspirado.Queue.NumberInQueue                2.6790     (Insuf)    .00000     15.000     .00000    
+secado.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Lavado.Queue.NumberInQueue                  .00541     (Insuf)    .00000     1.0000     .00000    
+Bomba super.Queue.NumberInQueue             .11327     (Insuf)    .00000     3.0000     .00000    
+Cuatro personas.Queue.NumberInQueue         .00000     (Insuf)    .00000     4.0000     .00000    
+Pago Autolavado.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Bomba Ultra.Queue.NumberInQueue             .02058     (Insuf)    .00000     2.0000     .00000    
+Comprar Postre.Queue.NumberInQueue          .01481     (Insuf)    .00000     1.0000     .00000    
+Auto Servicio.Queue.NumberInQueue           .02452     (Insuf)    .00000     1.0000     .00000    
+Parejas.Queue.NumberInQueue                 .00000     (Insuf)    .00000     2.0000     .00000    
+Pagar y Despachar.Queue.NumberInQueue       .29124     (Insuf)    .00000     3.0000     .00000    
+Trios.Queue.NumberInQueue                   .00000     (Insuf)    .00000     3.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Persona que comieron postre                     101  Infinite
+Cantidad Trios                                    9  Infinite
+No atendidos Bomba                              208  Infinite
+Cantidad Cuartetos                                8  Infinite
+Cantidad Parejas                                 22  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            449.00    
+Cliente.NumberOut                           449.00    
+Pareja.NumberIn                             11.000    
+Pareja.NumberOut                            11.000    
+Trio.NumberIn                               3.0000    
+Trio.NumberOut                              3.0000    
+Solo.NumberIn                               91.000    
+Solo.NumberOut                              89.000    
+Carro.NumberIn                              369.00    
+Carro.NumberOut                             369.00    
+Tanque lleno.NumberIn                       156.00    
+Tanque lleno.NumberOut                      156.00    
+Cuarteto.NumberIn                           2.0000    
+Cuarteto.NumberOut                          2.0000    
+cajero Autolavado.NumberSeized              70.000    
+cajero Autolavado.ScheduledUtilization      .06459    
+bomba2.NumberSeized                         40.000    
+bomba2.ScheduledUtilization                 .09415    
+Bomba1.NumberSeized                         100.00    
+Bomba1.ScheduledUtilization                 .24225    
+lavadora.NumberSeized                       70.000    
+lavadora.ScheduledUtilization               .21113    
+Cajero.NumberSeized                         121.00    
+Cajero.ScheduledUtilization                 .61576    
+secadora.NumberSeized                       70.000    
+secadora.ScheduledUtilization               .07070    
+aspiradora.NumberSeized                     70.000    
+aspiradora.ScheduledUtilization             .40806    
+System.NumberOut                            463.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
